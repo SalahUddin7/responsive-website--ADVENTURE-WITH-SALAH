@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Site</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE WITH SALAH</h1>
+ 
+        <ul class="nav-links" id="id1">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#tour">Tours</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li class="ctn"><a href="#footer">Contact</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" id="id2" alt="" class="menu-btn">
+    </nav>
+
+
+
+    <header id="home">
+        <div class="header-content">
+            <h2>Explore the colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Events -->
+<section class="events">
+    <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <img src="./img/img1.png" alt="">
+            <h4>Everest Camp Trek</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat provident voluptates a animi id nemo accusamus harum et ipsa sapiente soluta reprehenderit beatae vero blanditiis molestias, porro quibusdam quae perferendis.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    
+
+   
+        <div class="col">
+            <img src="./img/img2.png" alt="">
+            <h4>Walking Holidays</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat provident voluptates a animi id nemo accusamus harum et ipsa sapiente soluta reprehenderit beatae vero blanditiis molestias, porro quibusdam quae perferendis.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- Section Explore -->
+<section class="explore" id="explore">
+    <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis eos perspiciatis placeat architecto, molestias minus esse. Consequuntur inventore animi tempora ab amet unde, assumenda excepturi distinctio rerum ipsa earum.</p>
+        <a href="ctn" class="ctn">Learn More</a>
+    </div>
+</section>
+
+<!-- Section Tours -->
+
+<section class="tours" id="tour">
+    <div class="row">
+            <div class="col vontent-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolores perferendis veniam accusamus non a quas? Voluptatem, molestiae dolorum porro consequatur distinctio, rem sequi placeat earum facilis nostrum, et repellendus!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col image-col" >
+                    <div class="image-gallery">
+                        <img src="./img/img3.png" alt="">
+                        <img src="./img/img4.png" alt="">
+                        <img src="./img/img5.png" alt="">
+                        <img src="./img/img6.png" alt="">
+                    </div>
+            </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="footer" id="footer">
+    <p>123 Avenenue, Stockholm, Sweden</p>
+    
+    <p id="linkz"><a href="https://github.com/SalahUddin7" target="_blank"> 
+        Visit my Github Profile  
+        </a></p>
+
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+$('#id2').click(function(){
+    $('#id1').toggleClass('mobile-menu');
+})
+
+
+
+   })
+
+</script>
+
+
+</body>
+</html>
